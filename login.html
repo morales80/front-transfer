@@ -18,7 +18,6 @@
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
         <script>
-            // Cambia la ruta si es necesario
             fetch('./scrapp-french/Francia.json')
                 .then(response => response.json())
                 .then(data => {
@@ -27,11 +26,13 @@
                         const card = `
                                     <div class="col">
                                         <div class="card h-100">
+                                            <img src="${jugador.Avatar}" class="player-img card-img-top" alt="${jugador.Nombre}">
                                             <div class="card-body player-info">
                                                 <h5 class="card-title">${jugador.Nombre}</h5>
                                                 <p>Club: ${jugador.Club}</p>
                                                 <p>Edad: ${jugador.Edad}</p>
                                                 <p>Nacionalidad: ${jugador.Nacionalidades}</p>
+                                                <p>Posición: ${jugador.Posicion}</p>
                                                 <p>Valor Mercado: ${jugador.ValorMercado}</p>
                                                 <p>Valor más alto: ${jugador.ValorMasAlto}</p>
                                             </div>
