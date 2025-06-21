@@ -33,5 +33,4 @@ h5{
     object-fit: contain;
     border-radius: 20px 20px 0 0;
     background: #000000;
-    /* Opcional: para que no se vea transparente si la imagen no llena el espacio */
 }
