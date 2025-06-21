@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://wallpapers.com/images/hd/solid-pastel-color-2560-x-1600-background-hwk2tb9n98mdo337.jpg");
+}
+
+.card {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    
+}
+
+
+.contenedor {
+    margin-top: 1em;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.player-info {
+    font-family: "Anaheim", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5{
+    font-family: "Anaheim", sans-serif;
+}
